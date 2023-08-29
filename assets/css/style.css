@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+h4, h5, h6, p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.row{
+    padding: 10px;
+}
+
+.col-lg{
+    padding: 20px;
+    justify-content: center;
+}
+
+.fondo {
+    background-color: #28A745;
+}
+
+.formatocupon{
+    width: 150px;
+}
+
+.collapse{
+    justify-content: right;
+}
+
+.container{
+    padding: 20px;
+}
+
+.cardbody{
+    text-align: left;
+    padding: 10px;
+}
+
+.desc{
+    color: #707070;
+}
+
+.direccion{
+    display: flex;
+    justify-content: left;
+    padding: 10px;
+    color: #707070;
+}
+
+.dirdos{
+    padding-left: 10px;
+}
+
+.formulario{
+    background-color: #28A745;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+footer{
+    padding: 20px;
+    text-align: center;
+    color: #707070;
+}
+
+.precio{
+    display: flex;
+    justify-content: right;
+    padding: 10px;
+}
+
+.precio .uno{
+    padding-right: 10px;
+    color: #707070;
+}
+
+.precio .dos{
+    color: #28A745;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
